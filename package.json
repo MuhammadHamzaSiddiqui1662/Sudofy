@@ -13,7 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1",
-    "homepage": "http://MuhammadHamzaSiddiqui1662.github.io/React-basic-e-commers-app"
+    "homepage": "http://MuhammadHamzaSiddiqui1662.github.io/Sudofy/"
   },
   "scripts": {
     "start": "react-scripts start",
