@@ -1,0 +1,162 @@
+body {
+  background-color: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.products,
+.flex1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.container {
+  width: 100%;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #2dc791;
+}
+.left {
+  justify-self: flex-end;
+  order: 1;
+}
+.mainHeading {
+  padding: 20px 5px;
+}
+nav li {
+  display: inline;
+  padding: 10px 20px;
+  margin: 12px 15px;
+}
+li a {
+  padding: 3px;
+  margin: 2px;
+  color: #045035;
+}
+li h3 {
+  display: inline;
+}
+.main {
+  padding: 1px 20px;
+}
+.product {
+  margin: 5px;
+  background-color: white;
+  /* border: black solid 2px; */
+  /* border-radius: 8px; */
+  box-shadow: 0 0 6px 0 #b7fae3;
+  height: 55vh;
+  width: 27vw;
+  min-width: 320px;
+  max-width: 370px;
+}
+.product > figure {
+  height: 100%;
+  width: 100%;
+}
+figure > img {
+  height: 70%;
+  width: 100%;
+}
+figcaption {
+  display: flex;
+  flex-direction: column;
+}
+.productName {
+  padding: 2% 1%;
+}
+.productPrice {
+  padding: 0% 1%;
+}
+.addButton {
+  padding: 10px 0px;
+  margin-top: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e9fdf6;
+  transition: 0.2s;
+}
+.addButton > button {
+  width: 25px;
+  height: 25px;
+  background-color: #c2ffea;
+}
+
+/* login styling */
+
+/* .flexLogin {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loginContainer {
+  width: 50vw;
+  height: 55vh;
+  background-color: gray;
+  display: flex;
+}
+#login1,
+#login2 {
+  width: 50%;
+  height: 100%;
+}
+#login1 {
+  background-image: url("./images/login1.PNG");
+  background-size: 100% 100%;
+}
+#login2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#login2 input {
+  width: 70%;
+  margin: 10px 0px;
+  padding: 10px 3px;
+  border-radius: 25px;
+  outline: none;
+  border: 2px solid #2dc791;
+  transition: 0.3s;
+}
+#login2 input:focus {
+  border-color: #2dc791;
+  box-shadow: 0 0 8px 0 #2dc791;
+  padding: 10px 10px;
+}
+#loginButtons {
+  width: 80%;
+  height: 5vh;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+#loginButtons a {
+  width: 40%;
+  height: 100%;
+  margin: 0px 10px;
+  outline: none;
+}
+#loginButtons button {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #2dc791;
+  border: 2px solid #2dc791;
+  color: #056b47;
+  outline: none;
+}
+.abc {
+  padding: 0 10px;
+} */
